@@ -5,7 +5,7 @@
 [![StyleCI](https://github.styleci.io/repos/197242392/shield?style=flat&branch=master)](https://styleci.io/repos/197242392)
 [![License](https://img.shields.io/github/license/akaunting/laravel-firewall)](LICENSE.md)
 
-This package intends to protect your Laravel app from different type of attacks such as XSS, SQLi, RFI, LFI, User Agent, and a lot more. It will also block repeated attacks and send notification via email and/or slack when attack is detected. Furthermore, it will log failed logins and block the IP after a number of attempts.
+This package intends to protect your Laravel app from different types of attacks such as XSS, SQLi, RFI, LFI, User Agent, and a lot more. It will also block repeated attacks and send notifications via email and/or slack when an attack is detected. Furthermore, it will log failed logins and block the IP after a number of attempts.
 
 Note: Some middleware classes (i.e. Xss) are empty as the `Middleware` abstract class that they extend does all of the job, dynamically. In short, they all works ;)
 
